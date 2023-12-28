@@ -1,0 +1,27 @@
+{
+    "name": "is-holiday-cn",
+    "version": "1.0.1",
+    "module": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "build": "bun build ./index.ts --outdir ./dist",
+        "publish": "npm publish"
+    },
+    "devDependencies": {
+        "bun-types": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "license":"MIT",
+    "types": "type.d.ts",
+    "files": [
+        "dist",
+        "type.d.ts",
+        "README.md",
+        "LICENSE"
+    ],
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    }
+}
