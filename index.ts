@@ -22,6 +22,8 @@ export function getHolidayCn(date: Date) {
             isTOIL = true
             isHoliday = false
             dayName = `调休（${dayName}）`
+        } else {
+            isHoliday = true
         }
     }
 
